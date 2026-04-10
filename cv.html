@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CV professionnel de Youness Ait Ider, etudiant en informatique specialise en developpement web et integration front-end.">
+    <title>CV Professionnel | Youness Ait Ider</title>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="resume-page">
+        <header class="resume-header" id="top">
+            <div class="resume-header__identity">
+                <p class="resume-header__eyebrow">Curriculum Vitae</p>
+                <h1 class="resume-header__name">Youness Ait Ider</h1>
+                <p class="resume-header__title">Developpeur Web Junior & Etudiant en Informatique</p>
+            </div>
+
+            <div class="resume-header__actions">
+                <nav class="resume-nav" aria-label="Navigation rapide">
+                    <a class="resume-nav__link" href="#profil">Profil</a>
+                    <a class="resume-nav__link" href="#experience">Experience</a>
+                    <a class="resume-nav__link" href="#formation">Formation</a>
+                    <a class="resume-nav__link" href="#competences">Competences</a>
+                </nav>
+
+                <button class="theme-toggle" id="themeToggle" type="button" aria-label="Activer ou desactiver le mode sombre">
+                    <i class="fa-solid fa-moon"></i>
+                    <span>Mode sombre</span>
+                </button>
+            </div>
+        </header>
+
+        <div class="resume-layout">
+            <aside class="resume-sidebar" aria-label="Informations complementaires">
+                <section class="card card--profile">
+                    <figure class="profile-photo" aria-label="Photo de profil">
+                        <svg viewBox="0 0 200 200" role="img" aria-label="Portrait stylise de Youness Ait Ider">
+                            <defs>
+                                <linearGradient id="avatarGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" stop-color="#e7dcc8"></stop>
+                                    <stop offset="100%" stop-color="#c4a97d"></stop>
+                                </linearGradient>
+                            </defs>
+                            <rect width="200" height="200" rx="36" fill="url(#avatarGradient)"></rect>
+                            <circle cx="100" cy="78" r="34" fill="#f8f1e8"></circle>
+                            <path d="M47 167c13-34 38-52 53-52s40 18 53 52" fill="#f8f1e8"></path>
+                            <text x="100" y="186" text-anchor="middle" font-size="24" font-family="Georgia, serif" fill="#6f5639">YA</text>
+                        </svg>
+                    </figure>
+                    <p class="profile-photo__caption">Photo de profil stylisee, facilement remplacable par une photo personnelle.</p>
+                </section>
+
+                <section class="card" id="profil">
+                    <h2 class="section-title">Contact</h2>
+                    <ul class="contact-list">
+                        <li class="contact-list__item">
+                            <i class="fa-solid fa-phone"></i>
+                            <a href="tel:+212698763724">+212 6 98 76 37 24</a>
+                        </li>
+                        <li class="contact-list__item">
+                            <i class="fa-solid fa-envelope"></i>
+                            <a href="mailto:younness.aitider@gmail.com">younness.aitider@gmail.com</a>
+                        </li>
+                        <li class="contact-list__item">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>Agadir, Maroc</span>
+                        </li>
+                        <li class="contact-list__item">
+                            <i class="fa-solid fa-globe"></i>
+                            <a href="https://portfolio.example.com">portfolio.example.com</a>
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="card">
+                    <h2 class="section-title">Liens sociaux</h2>
+                    <ul class="social-list">
+                        <li><a class="social-list__link" href="https://www.linkedin.com/in/younnessaitider"><i class="fa-brands fa-linkedin"></i><span>LinkedIn</span></a></li>
+                        <li><a class="social-list__link" href="https://github.com/younnessaitider"><i class="fa-brands fa-github"></i><span>GitHub</span></a></li>
+                        <li><a class="social-list__link" href="https://www.behance.net/younnessaitider"><i class="fa-brands fa-behance"></i><span>Behance</span></a></li>
+                    </ul>
+                </section>
+
+                <section class="card">
+                    <h2 class="section-title">Langues</h2>
+                    <ul class="language-list">
+                        <li class="language-list__item">
+                            <div class="language-list__label">
+                                <span>Arabe</span>
+                                <strong>Natif</strong>
+                            </div>
+                            <div class="skill-bar" aria-hidden="true"><span style="width: 100%;"></span></div>
+                        </li>
+                        <li class="language-list__item">
+                            <div class="language-list__label">
+                                <span>Francais</span>
+                                <strong>Avance</strong>
+                            </div>
+                            <div class="skill-bar" aria-hidden="true"><span style="width: 88%;"></span></div>
+                        </li>
+                        <li class="language-list__item">
+                            <div class="language-list__label">
+                                <span>Anglais</span>
+                                <strong>Intermediaire</strong>
+                            </div>
+                            <div class="skill-bar" aria-hidden="true"><span style="width: 68%;"></span></div>
+                        </li>
+                    </ul>
+                </section>
+            </aside>
+
+            <main class="resume-main">
+                <section class="card card--intro">
+                    <h2 class="section-title">Objectif professionnel</h2>
+                    <p>
+                        Etudiant en informatique passionne par la creation d'interfaces web elegantes, accessibles et performantes.
+                        Je souhaite integrer une equipe dynamique afin de contribuer a des projets concrets, renforcer mes
+                        competences techniques et evoluer vers un profil complet en developpement front-end.
+                    </p>
+                </section>
+
+                <section class="card" id="experience">
+                    <h2 class="section-title">Experiences professionnelles</h2>
+
+                    <article class="timeline-item">
+                        <div class="timeline-item__meta">
+                            <span class="timeline-item__date">2025 - Aujourd'hui</span>
+                            <span class="timeline-item__place">Projet academique</span>
+                        </div>
+                        <h3 class="timeline-item__title">Developpeur Front-End Junior</h3>
+                        <p class="timeline-item__description">
+                            Conception de pages web responsives avec HTML5, CSS3 et JavaScript. Realisation de maquettes de CV,
+                            formulaires et mini-sites avec une attention particuliere portee a la lisibilite, a la structure semantique
+                            et a l'adaptation mobile.
+                        </p>
+                    </article>
+
+                    <article class="timeline-item">
+                        <div class="timeline-item__meta">
+                            <span class="timeline-item__date">2024 - 2025</span>
+                            <span class="timeline-item__place">Travaux pratiques</span>
+                        </div>
+                        <h3 class="timeline-item__title">Assistant de Projets Numeriques</h3>
+                        <p class="timeline-item__description">
+                            Participation a des exercices de mise en page, integration web et presentations numeriques.
+                            Collaboration avec des camarades pour organiser le contenu, corriger les details visuels et respecter
+                            les consignes de qualite demandees.
+                        </p>
+                    </article>
+                </section>
+
+                <section class="card" id="formation">
+                    <h2 class="section-title">Formation</h2>
+
+                    <article class="timeline-item">
+                        <div class="timeline-item__meta">
+                            <span class="timeline-item__date">2024 - 2026</span>
+                            <span class="timeline-item__place">FPO / Institut de Formation</span>
+                        </div>
+                        <h3 class="timeline-item__title">Technicien Specialise en Developpement Informatique</h3>
+                        <p class="timeline-item__description">
+                            Apprentissage du developpement web, des bases de donnees, de l'algorithmique et des bonnes pratiques
+                            de conception d'interfaces numeriques.
+                        </p>
+                    </article>
+
+                    <article class="timeline-item">
+                        <div class="timeline-item__meta">
+                            <span class="timeline-item__date">2023 - 2024</span>
+                            <span class="timeline-item__place">Lycee</span>
+                        </div>
+                        <h3 class="timeline-item__title">Baccalaureat</h3>
+                        <p class="timeline-item__description">
+                            Consolidation des competences en expression ecrite, raisonnement logique et travail de groupe.
+                        </p>
+                    </article>
+                </section>
+
+                <section class="card" id="competences">
+                    <h2 class="section-title">Competences</h2>
+
+                    <div class="skills-grid">
+                        <section class="skills-group" aria-labelledby="hard-skills-title">
+                            <h3 class="skills-group__title" id="hard-skills-title">Hard Skills</h3>
+                            <div class="skill">
+                                <div class="skill__head">
+                                    <span>HTML5</span>
+                                    <strong>95%</strong>
+                                </div>
+                                <div class="skill-bar" aria-hidden="true"><span style="width: 95%;"></span></div>
+                            </div>
+                            <div class="skill">
+                                <div class="skill__head">
+                                    <span>CSS3 / Responsive Design</span>
+                                    <strong>90%</strong>
+                                </div>
+                                <div class="skill-bar" aria-hidden="true"><span style="width: 90%;"></span></div>
+                            </div>
+                            <div class="skill">
+                                <div class="skill__head">
+                                    <span>JavaScript</span>
+                                    <strong>72%</strong>
+                                </div>
+                                <div class="skill-bar" aria-hidden="true"><span style="width: 72%;"></span></div>
+                            </div>
+                            <div class="skill">
+                                <div class="skill__head">
+                                    <span>Suite Office & Google Workspace</span>
+                                    <strong>85%</strong>
+                                </div>
+                                <div class="skill-bar" aria-hidden="true"><span style="width: 85%;"></span></div>
+                            </div>
+                        </section>
+
+                        <section class="skills-group" aria-labelledby="soft-skills-title">
+                            <h3 class="skills-group__title" id="soft-skills-title">Soft Skills</h3>
+                            <ul class="tag-list">
+                                <li>Communication claire</li>
+                                <li>Rigueur</li>
+                                <li>Travail en equipe</li>
+                                <li>Organisation</li>
+                                <li>Capacite d'adaptation</li>
+                                <li>Sens du detail</li>
+                            </ul>
+                        </section>
+                    </div>
+                </section>
+
+                <section class="card">
+                    <h2 class="section-title">Atouts complementaires</h2>
+                    <ul class="highlights-list">
+                        <li>Bonne maitrise des structures HTML semantiques et de la mise en forme CSS moderne.</li>
+                        <li>Interet prononce pour les interfaces lisibles, la coherence visuelle et l'accessibilite.</li>
+                        <li>Capacite a produire des documents soignes, adaptes au web comme a l'impression PDF.</li>
+                    </ul>
+                </section>
+            </main>
+        </div>
+    </div>
+
+    <script>
+        (function () {
+            var root = document.documentElement;
+            var toggle = document.getElementById("themeToggle");
+            var savedTheme = localStorage.getItem("cv-theme");
+
+            if (savedTheme === "dark") {
+                root.setAttribute("data-theme", "dark");
+            }
+
+            toggle.addEventListener("click", function () {
+                var isDark = root.getAttribute("data-theme") === "dark";
+                if (isDark) {
+                    root.removeAttribute("data-theme");
+                    localStorage.setItem("cv-theme", "light");
+                } else {
+                    root.setAttribute("data-theme", "dark");
+                    localStorage.setItem("cv-theme", "dark");
+                }
+            });
+        })();
+    </script>
+</body>
+</html>
